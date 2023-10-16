@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_upKugGwsEe6xStqwdiwZ2A" targetNamespace="http://tns.tibco.com/bw/composite/GestioneVideotecaREST.module" name="GestioneVideotecaREST.module" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_wjZmkGwsEe6xStqwdiwZ2A" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_wjj-oGwsEe6xStqwdiwZ2A" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_wjnpAGwsEe6xStqwdiwZ2A" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_wjqsUGwsEe6xStqwdiwZ2A" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_wjtvoGwsEe6xStqwdiwZ2A" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_wjwy8GwsEe6xStqwdiwZ2A" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_wjz2QGwsEe6xStqwdiwZ2A" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_wj25kGwsEe6xStqwdiwZ2A" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_wj8ZIGwsEe6xStqwdiwZ2A" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:component xmi:id="_vnTKsGwsEe6xStqwdiwZ2A" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_vnTxwGwsEe6xStqwdiwZ2A" processName="gestionevideotecarest.module.Process"/>
+  </sca:component>
+</sca:composite>
